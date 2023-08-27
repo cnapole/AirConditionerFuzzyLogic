@@ -26,5 +26,5 @@ There are several point to tweek. At least for me, the most important are the fo
 ## Found a bug?
 Please let us know by writing it down and your thoughts about what caused that bug. Try to explain as much as you can. It will be very appreciate it
 
-##Work in progress
+## Work in progress
 I'm thinking about adding more features in the future like changing the defuzzification processs or even using evolutive algorithms to gather the membership functions perhaps.
