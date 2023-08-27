@@ -1,7 +1,7 @@
 # Fuzzy logic controller designed with SK-Fuzzy (Python)
 
 ## Description
-This code shows the design of a fuzzy logic controller that I thought to be use for an air conditioner controller that can be built for a train. The input variables are the amount people and the wagon size (I'm assuming that the wagon size will be unidimensional and that will be the length of it). The output is the intensity of the air conditioner which I am assuming that it will be between 0 and 1. The main library that I'm using is SK-Fuzzy which is for python. Take also into account that I built this in collab from Google. The structures is as follows:
+This code shows the design of a fuzzy logic controller that I thought to be use for an air conditioner controller that can be built for a train. The input variables are the amount people and the wagon size (I'm assuming that the wagon size will be unidimensional and that will be the length of it). The output is the intensity of the air conditioner which I am assuming that it will be between 0 and 1. The main library that I'm using is SK-Fuzzy which is for python. Take also into account that I built this in collab from Google. The structures is as follows for the main:
 1) libraries installation, imports, etc.
 2) Definition of the universe of discourse
 3) Definition of membership function, assuming triangular ones
@@ -10,6 +10,8 @@ This code shows the design of a fuzzy logic controller that I thought to be use 
 6) Option (it is commented) to check at the membership rules
 7) Definition of if-then rules
 8) Simulation creation and intensity output. There are also graphs to check here
+
+There's also another branch called SimpleAirConditioner which uses triangular membership functions only and it is made for interactive purposes
 
 ## How to install this
 1) Download the code
